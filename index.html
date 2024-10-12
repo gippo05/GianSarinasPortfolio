@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gian Sarinas</title>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <!-- custom/styles css -->
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body data-bs-theme="light">
+    <!-- First section -->
+    <header id="home">
+      <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary bg-transparent">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#home"><img class="logo" src="./images/Logo 1.svg"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="mailto:gsarinas17@gmail.com">Let's Talk</a>
+              </li>
+            </ul>
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch" id="selector" onclick="darkMode()">
+              <label class="form-check-label" for="selector">Dark mode</label>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      
+</header>
+      <div class="main-container">
+        <div class="top-flex">
+          <div class="top">
+            <p class="p1"><span id = "text"></span></p>
+            <h2 class="hello">Hello! I'm</h2>
+            <h1 class="name"><span class="gian">Gian</span> Sarinas</h1>
+            <p class="description">A self taught developer with passion for turning creative ideas into reality 
+            using the latest technology available.</p>
+          </div>
+
+          <div class="picture">
+          <img src="./images/profile pic-Photoroom (1).png" alt="mypic">
+          </div>
+        </div>
+
+        <!-- buttons-flex is for pc/laptop only -->
+        <!-- <div class="buttons-flex"> -->
+       <div class="hello-button">
+          <a class="say-hello grow" href="mailto:gsarinas17@gmail.com">Say Hello!</a>
+          </div>
+          <div class="buttons">
+          <a  href="https://www.facebook.com/gippo05"><img class="grow" src="./images/facebook-svgrepo-com.svg" alt="facebook-logo" stroke="currentColor">
+            
+            <!-- facebook -->
+          </a>
+          <a href="https://www.linkedin.com/in/gian-sarinas-353b74202"><img class="grow" src="./images/linkedin-logo-svgrepo-com.svg" alt="linkedin-logo">
+            <!-- linkedin -->
+          </a>
+          <a href="https://github.com/gippo05"><img class="grow" src="./images/github.svg" alt="github-logo">
+            <!-- github -->
+          </a>
+       </div>
+      </div>
+    </div>
+    <svg class="arrow bounce filter-green" viewBox="0 0 320 512" width="100" title="angle-down">
+      <path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z" />
+    </svg>
+    <!-- end of first section -->
+    <!-- Second section -->
+
+    <div class="second-flex">
+   <div class="aboutme animation tag" id="about">
+      <h3 class="abouth3">About me</h3>
+      <p class="about-me-description"> Hi! You can call me <span class ="gian">Gian</span> 
+        or <span class = "gian">Gipps</span>, 
+        whichever you like. I love coding! I'm <span class="passionate">passionate</span> 
+        about creating web applications with the latest technologies available in the market.</p>
+      <p class = "about2"> I started learning to code just for fun. When I was a kid 
+        it was always my <span class="dream">dream</span> to create my own website and web-apps. 
+        It's always <span class="fulfilling">fulfilling</span> for me when I get to create something especially
+         when I'm able to put my <span>creative ideas</span> into it.</p>
+   </div>
+
+   <div class = "second-container tag">
+    <p class="using">Technologies I'm using</p>
+    <div class = "tech-stack1">
+            <ul class="techlist">
+                <img class="tech-icon grow" src="./images/html-5-logo-svgrepo-com.svg">
+                <img class="tech-icon grow" src="./images/css-3-svgrepo-com.svg">
+                <img class="tech-icon grow" src="./images/js-svgrepo-com.svg">
+    </div>
+    <div class="tech-stack2">
+            <ul class="techlist">
+                <img class="tech-icon grow" src="./images/react-svgrepo-com.svg">
+                <img class="tech-icon grow" src="./images/bootstrap-svgrepo-com.svg">
+                <img class="tech-icon grow" src="./images/jquery-svgrepo-com.svg">
+            </ul>
+    </div>
+    <p class="while">While I have some knowledge about these language and frameworks, I believe in <span>continuous</span> learning and <span>improvement. </span>
+  Which is why I'm eyeing on learning more frameworks and languages that would help cater your business needs.</p>
+</div>
+</div>
+
+
+<svg class="arrow bounce filter-green" viewBox="0 0 320 512" width="100" title="angle-down">
+  <path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z" />
+</svg>
+<!-- end of second section -->
+
+<!-- third section -->
+ 
+<div class="third-container tag">
+  <div class="project" id="projects">
+      <h3>My Projects</h3>
+  </div>
+  <div class="project1">
+    <div class="tin">
+      <img class="tindog-pic" src="./images/TinDog pic.png" alt="tindogpic">
+    </div>
+
+    <div class="padding-div">
+      <h4 class="project1-1">TinDog Project</h4>
+      <p class="p1-1">One of the projects from the udemy course that I took. 
+      This is a mock-up tinder for dogs hence the title which I find cute!</p>
+      <p class="p1-2">Technologies used: HTML, CSS, and mainly Bootstrap.</p>
+      <a href="https://gippo05.github.io/TinDog-Project/" class="demo">Demo live site</a>
+      <a href="https://github.com/gippo05/TinDog-Project"><img class="view-live grow" src="./images/github.svg" alt="github-logo"></a>
+    </div>
+  </div>
+</div>
+
+<!-- end of third section -->
+
+<!-- fourth section -->
+
+<div class="fourth-container">
+  <div class="contact">
+    <h3 class="contactme">Contact me</h3>
+    <p class="end-paragraph">Love what your seeing so far? <span>Let's talk</span> about how we can leverage my expertise to help you with your business needs.</h3></p>
+    <a href="mailto:gsarinas17@gmail.com" class="say-hello">Say Hello!</a>
+  </div>
+</div>
+<!-- end of fourth section -->
+
+<!-- footer -->
+ <footer>
+  <div class="footer-container">
+      <div class="bottom-container">
+      <div class="footer-links">
+          <a class="footer-link" href="https://www.linkedin.com/in/gian-sarinas-353b74202">LinkedIn</a>
+          <a class="footer-link" href="https://www.facebook.com/gippo05/">Facebook</a>
+          <a class="footer-link" href="https://github.com/gippo05">GitHub</a>
+      </div>
+          <p class="copyright">© Gian Sarinas 2024. All rights reserved.</p>
+      </div>
+  </div>
+ </footer>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="./index.js"></script>
+  </body>
+</html>
