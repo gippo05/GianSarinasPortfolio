@@ -1,3 +1,4 @@
+document.getElementById("year").innerHTML = new Date().getFullYear();
 
 var typed = new Typed("#text", {
     strings : ["Front-End Developer", "Freelancer", "Streamer"],
@@ -27,3 +28,5 @@ var typed = new Typed("#text", {
     element.dataset.bsTheme = 
         element.dataset.bsTheme == "light" ? "dark" : "light";
    }
+
+   document.getElementById("year").innerHTML = new Date().getFullYear();
